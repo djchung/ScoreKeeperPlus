@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		738F06AB14C8BDCA00A6F5BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738F06AA14C8BDCA00A6F5BF /* UIKit.framework */; };
+		738F06AD14C8BDCA00A6F5BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738F06AC14C8BDCA00A6F5BF /* Foundation.framework */; };
+		738F06AF14C8BDCA00A6F5BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738F06AE14C8BDCA00A6F5BF /* CoreGraphics.framework */; };
+		738F06B514C8BDCA00A6F5BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 738F06B314C8BDCA00A6F5BF /* InfoPlist.strings */; };
+		738F06B714C8BDCA00A6F5BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F06B614C8BDCA00A6F5BF /* main.m */; };
+		738F06BB14C8BDCA00A6F5BF /* ScoreKeeperPlusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F06BA14C8BDCA00A6F5BF /* ScoreKeeperPlusAppDelegate.m */; };
+		738F06C914C8BEAA00A6F5BF /* ScoreKeeperPlusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F06C814C8BEAA00A6F5BF /* ScoreKeeperPlusViewController.m */; };
+		738F06CC14C8C0AF00A6F5BF /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F06CB14C8C0AF00A6F5BF /* Player.m */; };
+		738F06D314C8C5B300A6F5BF /* AddPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F06D114C8C5B300A6F5BF /* AddPlayerViewController.m */; };
+		738F06D414C8C5B300A6F5BF /* AddPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738F06D214C8C5B300A6F5BF /* AddPlayerViewController.xib */; };
+		738F06D814C8D2F800A6F5BF /* AddScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 738F06D614C8D2F800A6F5BF /* AddScoreViewController.m */; };
+		738F06D914C8D2F800A6F5BF /* AddScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738F06D714C8D2F800A6F5BF /* AddScoreViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		738F06A614C8BDCA00A6F5BF /* ScoreKeeperPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeperPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738F06AA14C8BDCA00A6F5BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		738F06AC14C8BDCA00A6F5BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		738F06AE14C8BDCA00A6F5BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		738F06B214C8BDCA00A6F5BF /* ScoreKeeperPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScoreKeeperPlus-Info.plist"; sourceTree = "<group>"; };
+		738F06B414C8BDCA00A6F5BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		738F06B614C8BDCA00A6F5BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		738F06B814C8BDCA00A6F5BF /* ScoreKeeperPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScoreKeeperPlus-Prefix.pch"; sourceTree = "<group>"; };
+		738F06B914C8BDCA00A6F5BF /* ScoreKeeperPlusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeperPlusAppDelegate.h; sourceTree = "<group>"; };
+		738F06BA14C8BDCA00A6F5BF /* ScoreKeeperPlusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeperPlusAppDelegate.m; sourceTree = "<group>"; };
+		738F06C714C8BEAA00A6F5BF /* ScoreKeeperPlusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreKeeperPlusViewController.h; sourceTree = "<group>"; };
+		738F06C814C8BEAA00A6F5BF /* ScoreKeeperPlusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeperPlusViewController.m; sourceTree = "<group>"; };
+		738F06CA14C8C0AF00A6F5BF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		738F06CB14C8C0AF00A6F5BF /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		738F06D014C8C5B300A6F5BF /* AddPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlayerViewController.h; sourceTree = "<group>"; };
+		738F06D114C8C5B300A6F5BF /* AddPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlayerViewController.m; sourceTree = "<group>"; };
+		738F06D214C8C5B300A6F5BF /* AddPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPlayerViewController.xib; sourceTree = "<group>"; };
+		738F06D514C8D2F800A6F5BF /* AddScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddScoreViewController.h; sourceTree = "<group>"; };
+		738F06D614C8D2F800A6F5BF /* AddScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddScoreViewController.m; sourceTree = "<group>"; };
+		738F06D714C8D2F800A6F5BF /* AddScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddScoreViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		738F06A314C8BDCA00A6F5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738F06AB14C8BDCA00A6F5BF /* UIKit.framework in Frameworks */,
+				738F06AD14C8BDCA00A6F5BF /* Foundation.framework in Frameworks */,
+				738F06AF14C8BDCA00A6F5BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738F069B14C8BDCA00A6F5BF = {
+			isa = PBXGroup;
+			children = (
+				738F06B014C8BDCA00A6F5BF /* ScoreKeeperPlus */,
+				738F06A914C8BDCA00A6F5BF /* Frameworks */,
+				738F06A714C8BDCA00A6F5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		738F06A714C8BDCA00A6F5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				738F06A614C8BDCA00A6F5BF /* ScoreKeeperPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738F06A914C8BDCA00A6F5BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738F06AA14C8BDCA00A6F5BF /* UIKit.framework */,
+				738F06AC14C8BDCA00A6F5BF /* Foundation.framework */,
+				738F06AE14C8BDCA00A6F5BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		738F06B014C8BDCA00A6F5BF /* ScoreKeeperPlus */ = {
+			isa = PBXGroup;
+			children = (
+				738F06CF14C8C0E700A6F5BF /* Controllers */,
+				738F06CE14C8C0D700A6F5BF /* Views */,
+				738F06CD14C8C0C400A6F5BF /* Models */,
+				738F06B114C8BDCA00A6F5BF /* Supporting Files */,
+			);
+			path = ScoreKeeperPlus;
+			sourceTree = "<group>";
+		};
+		738F06B114C8BDCA00A6F5BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				738F06B214C8BDCA00A6F5BF /* ScoreKeeperPlus-Info.plist */,
+				738F06B314C8BDCA00A6F5BF /* InfoPlist.strings */,
+				738F06B614C8BDCA00A6F5BF /* main.m */,
+				738F06B814C8BDCA00A6F5BF /* ScoreKeeperPlus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		738F06CD14C8C0C400A6F5BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				738F06CA14C8C0AF00A6F5BF /* Player.h */,
+				738F06CB14C8C0AF00A6F5BF /* Player.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		738F06CE14C8C0D700A6F5BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				738F06D214C8C5B300A6F5BF /* AddPlayerViewController.xib */,
+				738F06D714C8D2F800A6F5BF /* AddScoreViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		738F06CF14C8C0E700A6F5BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				738F06B914C8BDCA00A6F5BF /* ScoreKeeperPlusAppDelegate.h */,
+				738F06BA14C8BDCA00A6F5BF /* ScoreKeeperPlusAppDelegate.m */,
+				738F06C714C8BEAA00A6F5BF /* ScoreKeeperPlusViewController.h */,
+				738F06C814C8BEAA00A6F5BF /* ScoreKeeperPlusViewController.m */,
+				738F06D514C8D2F800A6F5BF /* AddScoreViewController.h */,
+				738F06D614C8D2F800A6F5BF /* AddScoreViewController.m */,
+				738F06D014C8C5B300A6F5BF /* AddPlayerViewController.h */,
+				738F06D114C8C5B300A6F5BF /* AddPlayerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		738F06A514C8BDCA00A6F5BF /* ScoreKeeperPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738F06C414C8BDCA00A6F5BF /* Build configuration list for PBXNativeTarget "ScoreKeeperPlus" */;
+			buildPhases = (
+				738F06A214C8BDCA00A6F5BF /* Sources */,
+				738F06A314C8BDCA00A6F5BF /* Frameworks */,
+				738F06A414C8BDCA00A6F5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreKeeperPlus;
+			productName = ScoreKeeperPlus;
+			productReference = 738F06A614C8BDCA00A6F5BF /* ScoreKeeperPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		738F069D14C8BDCA00A6F5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 738F06A014C8BDCA00A6F5BF /* Build configuration list for PBXProject "ScoreKeeperPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 738F069B14C8BDCA00A6F5BF;
+			productRefGroup = 738F06A714C8BDCA00A6F5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738F06A514C8BDCA00A6F5BF /* ScoreKeeperPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		738F06A414C8BDCA00A6F5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738F06B514C8BDCA00A6F5BF /* InfoPlist.strings in Resources */,
+				738F06D414C8C5B300A6F5BF /* AddPlayerViewController.xib in Resources */,
+				738F06D914C8D2F800A6F5BF /* AddScoreViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738F06A214C8BDCA00A6F5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738F06B714C8BDCA00A6F5BF /* main.m in Sources */,
+				738F06BB14C8BDCA00A6F5BF /* ScoreKeeperPlusAppDelegate.m in Sources */,
+				738F06C914C8BEAA00A6F5BF /* ScoreKeeperPlusViewController.m in Sources */,
+				738F06CC14C8C0AF00A6F5BF /* Player.m in Sources */,
+				738F06D314C8C5B300A6F5BF /* AddPlayerViewController.m in Sources */,
+				738F06D814C8D2F800A6F5BF /* AddScoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		738F06B314C8BDCA00A6F5BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738F06B414C8BDCA00A6F5BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		738F06C214C8BDCA00A6F5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		738F06C314C8BDCA00A6F5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738F06C514C8BDCA00A6F5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKeeperPlus/ScoreKeeperPlus-Prefix.pch";
+				INFOPLIST_FILE = "ScoreKeeperPlus/ScoreKeeperPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		738F06C614C8BDCA00A6F5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScoreKeeperPlus/ScoreKeeperPlus-Prefix.pch";
+				INFOPLIST_FILE = "ScoreKeeperPlus/ScoreKeeperPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		738F06A014C8BDCA00A6F5BF /* Build configuration list for PBXProject "ScoreKeeperPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738F06C214C8BDCA00A6F5BF /* Debug */,
+				738F06C314C8BDCA00A6F5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738F06C414C8BDCA00A6F5BF /* Build configuration list for PBXNativeTarget "ScoreKeeperPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738F06C514C8BDCA00A6F5BF /* Debug */,
+				738F06C614C8BDCA00A6F5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 738F069D14C8BDCA00A6F5BF /* Project object */;
+}
